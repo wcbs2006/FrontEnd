@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --black: #000;
+    --white: #FFF;
+    --background: #111827;
+    --pointer-blue: #0073B0;
+    --login-purple: #7180B9;
+    --login-purple-input: rgba(113, 128, 185, 0.32);
+}
+
+body{
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;  /* cor da fonte */
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 16vw;
+    min-height: 100vh;
+}
+
+main section header {
+    display: flex;
+    align-items: center;
+
+}
+
+main section header .title p {
+    width: 328px;
+    height: 75px;
+
+    font-size: 64px;
+
+    color: #fff;
+}
+
+main section header .full-pointer {
+    width: 16px;
+    height: 16px;
+    margin-top: 32px;
+    border-radius: 50%;
+
+    background-color: var(--pointer-blue);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content .image{
+    /* position: absolute; */
+    width: 576px;
+    height: 476.48px;
+}
+
+.content .forms{
+    /* position: absolute; */
+    width: 480px;
+    height: 476px;
+
+
+    background: var(--white);
+    border-radius: 4px;
+}
+
+.forms h2{
+    /* position: absolute; */
+    width: 100px;
+    height: 47px;
+    margin-left: 186px;
+    
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000;
+}
+
+.forms .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    padding: 12px 16px;
+    gap: 24px;
+    
+    /* position: absolute; */
+    width: 400px;
+    height: 48px;
+
+    
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+}
+
+.forms input{
+    width: 400px;
+    height: 48px;
+    border: none;
+    background-color: transparent;
+}
+
+.forms .password{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24px;
+    padding: 12px 16px;
+    gap: 12px;
+    
+    width: 400px;
+    height: 48px;
+    bottom: -24px;
+    /* left: 840px;
+    top: 472px; */
+    
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+}
+
+.forms .login-button button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 24px;
+    padding: 12px 16px;
+    gap: 12px;
+    
+    width: 432px;
+    height: 48px;
+    bottom: -112px;
+
+    font-weight: bold;
+    font-size: large;
+
+    background: #7180B9;
+    border-radius: 4px;
+    border: none;
+}
+
+.login-button button:active{
+    background-color: #4a6df8;
+    color: white;
+}
+
+.forms .line{
+    width: 124px;
+    height: 0px;
+    margin-left: 178px;
+    margin-top: 24px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.32);
+}
+
+.forms footer{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 20px;
+
+}
+
+.forms footer .ou-entre{
+    width: 119px;
+    height: 23px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 15px;
+    
+    color: #000000;
+}
+
+.forms footer a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-left: 160px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 244px;
+    height: 32px;
+
+    
+    background: #7180B9;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000;
+}
+
+.forms footer a:hover{
+    color: white;
+}
