@@ -31,10 +31,9 @@
 //         return array
 //     }
 // }
-
-// console.log(myFunction("tips", "a"))
+// console.log(myFunction("pi", "tsa"))
 
 // No-first element
-let socialMedia = ["Orkut", "Facebook", "Instagram", "Twitter"]
-socialMedia.shift()
-console.log(socialMedia)
+// let socialMedia = ["Orkut", "Facebook", "Instagram", "Twitter"]
+// socialMedia.shift()
+// console.log(socialMedia)

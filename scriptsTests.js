@@ -55,3 +55,25 @@
 
 // console.log(join)
 
+
+
+
+// TESTE COM VALORES
+
+// const frutas = ['Pera', 'Maçã', 'Uva', 'Abacaxi']
+
+// USANDO FOR
+// for (i = 0; i < frutas.length; i++){
+//     console.log(frutas)
+// }
+
+// USANDO FOREACH
+// frutas.forEach(function (fruta){
+//     console.log(fruta)
+// })
+
+// USANDO MAP
+// frutas.map(function (fruta){
+//     console.log(fruta)
+// })
+
